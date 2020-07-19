@@ -4,7 +4,7 @@ abstract class Cake{
    String name;
    String[] topping;
    String[] toppingOrder;
-   double priceOfSmall, priceOfMedium, priceOfBig;
+   double priceOfSmall = 45.0, priceOfMedium = 65.0, priceOfBig = 80.0;
    int size, quantity;
 
    Cake(String name){
